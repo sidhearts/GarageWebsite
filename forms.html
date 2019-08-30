@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>registration form</title>
+	<link rel="stylesheet" type="text/css" href="forms.css">
+</head>
+<body>
+<span id="span">
+	<h1 id="h">Register</h1>
+	<form>
+		<span class='span1'>
+			<label for="firstname">First Name:</label>
+			<input id="firstname" type="text" name="firstname" placeholder="e.g. John" required>
+		</span><br>
+		<span class='span1'>
+			<label for="secondname">Second Name:</label>
+			<input id="secondname" type="text" name="secondname" placeholder="e.g. Watson" required>
+		</span><br>
+		<span class='span1'>
+			<label for="male">Male: </label>
+			<input id="male" type="radio" name="gender" value="male">
+			<label for="female">Female: </label>
+			<input id="female" type="radio" name="gender" value="female">
+			<label for="other">Others: </label>
+			<input id="other" type="radio" name="gender" value="others">
+		</span><br>
+		<span class='span1'>
+			<label for="email">Email: </label>
+			<input id="email" type="email" name="email" placeholder="your email">
+		</span><br>
+		<span class='span1'>
+			<label for="passsword">Password: </label>
+			<input id="passsword" type="password" name="passsword" placeholder="min. 5 character" pattern=".{5}">
+		</span><br>
+		<span id="birthday">
+			Birthday:
+			<select name="month">
+				<option>Month</option>
+				<option>January</option>
+				<option>February</option>
+				<option>March</option>
+				<option>April</option>
+				<option>May</option>
+				<option>June</option>
+				<option>July</option>
+				<option>August</option>
+				<option>September</option>
+				<option>October</option>
+				<option>November</option>
+				<option>December</option>
+			</select>
+			<select name="day">
+				<option>Day</option>
+				<option>1</option>
+				<option>2</option>
+				<option>3</option>
+				<option>4</option>
+				<option>5</option>
+				<option>6</option>
+				<option>7</option>
+				<option>8</option>
+				<option>9</option>
+				<option>10</option>
+				<option>11</option>
+				<option>12</option>
+				<option>13</option>
+				<option>14</option>
+				<option>15</option>
+				<option>16</option>
+				<option>17</option>
+				<option>18</option>
+				<option>19</option>
+				<option>20</option>
+				<option>21</option>
+				<option>22</option>
+				<option>23</option>
+				<option>24</option>
+				<option>25</option>
+				<option>26</option>
+				<option>27</option>
+				<option>28</option>
+				<option>29</option>
+				<option>30</option>
+				<option>31</option>
+			</select>.
+			<select name="year">
+				<option>Year</option>
+				<option>2000</option>
+				<option>2001</option>
+				<option>2002</option>
+				<option>2003</option>
+				<option>2004</option>
+			</select><br>
+		</span>
+		<span id="check">
+			I agree to the term:
+			<input type="checkbox" name="yes"><br>
+		</span>
+			<button>Submit</button>
+	</form>
+</span>
+</body>
+</html>
